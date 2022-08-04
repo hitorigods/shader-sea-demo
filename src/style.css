@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	overflow: hidden;
+}
+
+body {
+	color: #fff;
+}
+
+.webgl {
+	position: fixed;
+	top: 0;
+	left: 0;
+	outline: none;
+	z-index: -1;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 20px;
+}
+
+header .logo {
+	font-size: 35px;
+}
+
+header ul {
+	display: flex;
+	list-style: none;
+}
+header li {
+	display: block;
+	margin-right: 25px;
+	font-size: 17px;
+	font-weight: 400;
+}
+
+header li a {
+	color: #fff;
+	text-decoration: none;
+}
